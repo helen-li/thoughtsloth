@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F6CF96"
     tools:context=".CalendarActivity">
 
     <com.prolificinteractive.materialcalendarview.MaterialCalendarView
@@ -17,7 +18,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:mcv_selectionColor="#0000FF"
+        app:mcv_selectionColor="#F6CF96"
         app:mcv_showOtherDates="all" />
 
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
@@ -27,6 +28,7 @@
         android:layout_margin="16dp"
         android:clickable="true"
         android:text="New Entry"
+        android:fontFamily="casual"
         app:icon="@android:drawable/ic_input_add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,6 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
+        android:fontFamily="casual"
         android:text="Analyze"
         app:layout_constraintEnd_toStartOf="@+id/addEntry"
         app:layout_constraintHorizontal_bias="0.0"
