@@ -5,6 +5,9 @@
       <map>
         <entry key="src/main/res/layout/activity_calendar.xml" value="0.25" />
         <entry key="src/main/res/layout/activity_checkboxes.xml" value="0.22864583333333333" />
+        <entry key="src/main/res/layout/activity_graph.xml" value="0.22864583333333333" />
+        <entry key="src/main/res/layout/activity_input.xml" value="0.22864583333333333" />
+        <entry key="src/main/res/layout/activity_login.xml" value="0.21458333333333332" />
         <entry key="src/main/res/layout/activity_main.xml" value="0.22864583333333333" />
       </map>
     </option>

@@ -4,24 +4,23 @@ import com.prolificinteractive.materialcalendarview.CalendarDay;
 import com.prolificinteractive.materialcalendarview.DayViewDecorator;
 import com.prolificinteractive.materialcalendarview.DayViewFacade;
 
-import java.util.Collection;
-import java.util.HashSet;
-
 public class Decorator implements DayViewDecorator {
 
     private final int[] colors;
-    private final HashSet<CalendarDay> dates;
+    private final CalendarDay date;
 
 
-    public Decorator(Collection<CalendarDay> dates, int[] colors) {
+    public Decorator(CalendarDay date, int[] colors) {
         //this.color = color;
-        this.dates = new HashSet<>(dates);
+        this.date = date;
         this.colors = colors;
     }
 
     @Override
     public boolean shouldDecorate(CalendarDay day) {
-        return dates.contains(day);
+        return date.getYear() == day.getYear() &&
+                date.getMonth() == day.getMonth() &&
+                date.getDay() == day.getDay();
     }
 
     @Override

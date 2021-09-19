@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication2">
         <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".Graph"
+            android:exported="true" />
+        <activity
+            android:name=".Input"
+            android:exported="true" />
+        <activity
             android:name=".CalendarActivity"
             android:exported="true" />
         <activity

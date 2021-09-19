@@ -7,5 +7,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "My Application2"
+rootProject.name = "ThoughtSloth"
 include ':app'
